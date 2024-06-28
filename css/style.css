@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header .top-head {
+    padding: 1rem 0;
+    box-shadow: 5px 0 20px rgb(211, 211, 211);
+}
+
+header .contact a,
+header .social-media a {
+    text-decoration: none;
+    color: #369585;
+    padding: 0 0.5rem;
+    font-size: 0.8rem;
+}
+
+
+.mid-right p {
+    color: #369585;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.mid-right p i {
+    font-weight: lighter;
+    margin-right: 2px;
+}
+
+.mid-right p span {
+    color: gray;
+    font-size: 0.5rem;
+    font-weight: 400;
+}
+
+.main-head .nav-link {
+    font-size: 0.8rem;
+    margin-right: 10px;
+    color: #369585;
+}
+
+.search-btn i {
+    color: #369585;
+    font-weight: 800;
+}
+
+.join-us {
+    white-space: nowrap;
+    background: #369585;
+    color: white;
+    margin-left: 20px;
+}
+
+.join-us:hover {
+    background: #000000;
+    color: white;
+}
+
+.search-and-join-us input::placeholder {
+    color: rgb(201, 196, 196);
+}
+
+.main-head hr {
+    color: #369585;
+}
+
+.our-store-wrapper .subhead h2,.brands .subhead h2 {
+    color: #369585;
+    font-size: 6vmin;
+    font-weight: 800;
+}
+
+.our-store-wrapper .subhead h2::before {
+    content: "Our Store";
+    color: #bbbbbb35;
+    font-weight: 700;
+    position: absolute;
+    font-size: 15vmin;
+    z-index: -1;
+}
+
+.our-store-wrapper .subhead h2::after,.brands .subhead h2::after {
+    content: "";
+    height: 3px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: #369585;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.see-store {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 5px 4px 5px 40px;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, aqua, darkorchid) border-box;
+    border-radius: 50em;
+    border: 1px solid transparent;
+    transition: all 0.5s ease;
+}
+
+.see-store:hover {
+    scale: 1.1;
+    background: #36958535;
+}
+
+.icon-store {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, aqua, darkorchid);
+}
+
+.brands .subhead h2::before {
+    content: "BRANDS";
+    color: #bbbbbb35;
+    font-weight: 700;
+    position: absolute;
+    font-size: 15vmin;
+    z-index: -1;
+}
+
+.brands-slider{
+    background: #3695855c;
+    padding: 20px 10px;
+    border: 1px solid #369585;
+    border-radius: 30px;
+    margin: 80px 0;
+}
+
+.brands-slider img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+    padding: 10px;
+}
+
+
+.newsletter {
+    background: #2B2D36;
+}
+
+.book-appoinment{
+    background: #353742;
+    padding: 4px;
+    border-radius: 30px;
+}
+
+.book-appoinment input{
+    background: none;
+    border: none;
+    color: white !important;
+}
+
+.book-appoinment input::placeholder{
+    color: #A2A2A2;
+}
+
+.book-appoinment input:focus{
+    background: none;
+    box-shadow: none;
+}
+
+.socials a{
+display: inline-flex;
+width: 45px;
+height: 45px;
+background-color: #353742;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+color: white;
+font-size: 25px;
+font-weight: bold;
+}
+
+footer {
+    background: #353742;
+}
+
+.btn-appoinment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 45px;
+    background: #1DCCC2;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.btn-appoinment:hover {
+    scale: 1.2;
+}
+
+
+.footer-book-appoinment input::placeholder {
+    color: #1DCCC2;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navigation a {
+    display: block;
+    color: #A2A2A2;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+address a {
+    color: #A2A2A2;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+address a i {
+    color: #1DCCC2;
+}
